@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className=" bg-black h-screen flex items-center justify-center">
 
-      <button className={`relative border-2 border-green-800 w-3/5 rounded-full pt-2 hover:bg-green-800 shadow-shadowButtons hover:text-white transition duration-300 pb-2  text-green-800`}
+      <button className={`relative border-2 border-green-800 w-3/5 rounded-full pt-2 hover:bg-green-800 shadow-shadowButtons hover:text-white transition duration-300 pb-2  text-green-800 `}
       onClick={() => alert("Añadido al carrito correctamente")} 
       >
         <h5 className="relative inline ">

@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} bg-black`}>
       <nav className="border-b border-green-800 pt-5 pb-5 flex items-center justify-evenly">
-        <Link href="/" className="text-white hover:text-yellow-200">Home</Link>
-        <Link href="/aboutUs" className="text-white hover:text-yellow-200">About us</Link>
+       <button> <Link  href="/" className="text-white hover:text-yellow-200 ">Home</Link></button>
+        <button><Link href="/aboutUs" className="text-white hover:text-yellow-200">About us</Link></button>
       </nav>
       {children}</body>
     </html>
