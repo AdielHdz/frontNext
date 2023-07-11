@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
       <nav className="border-b border-green-800 pt-5 pb-5 flex items-center justify-evenly">
        <button> <Link  href="/" className="text-white hover:text-yellow-200 ">Home</Link></button>
         <button><Link href="/aboutUs" className="text-white hover:text-yellow-200">About us</Link></button>
+        <button><Link href="/pruebaDaniel" className="text-white hover:text-yellow-200">Prueba Daniel</Link></button>
       </nav>
       {children}</body>
     </html>
