@@ -14,7 +14,7 @@ module.exports = {
       }, 
       boxShadow: {
         shadowButtons: "0 0 15px 2px rgba(0,0,0,0.384)"
-      }
+      },
     },
   },
   plugins: [],
