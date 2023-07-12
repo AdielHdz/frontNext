@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 const PruebaMuro = () => {
   return (
     <div className="text-white bg-black h-screen">
@@ -13,7 +13,7 @@ const PruebaMuro = () => {
         </p>
       </div>
       <div className="flex justify-center items-center">
-        <img
+        <Image
           src="../../../public/asset/img.JPG"
           alt="Descripción de la imagen"
           className="rounded-full"
