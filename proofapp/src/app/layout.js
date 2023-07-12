@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
        <button> <Link  href="/" className="text-white hover:text-yellow-200 ">Home</Link></button>
         <button><Link href="/aboutUs" className="text-white hover:text-yellow-200">About us</Link></button>
         <button><Link href="/pruebaDaniel" className="text-white hover:text-yellow-200">Prueba Daniel</Link></button>
+        <button><Link href="/pruebaMauroo" className="text-white hover:text-yellow-200">Prueba Mauroo</Link></button>
       </nav>
       {children}</body>
     </html>
