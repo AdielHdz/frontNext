@@ -1,6 +1,6 @@
 "use client"
 import { useSearchParams } from "next/navigation"
-import { getUserById } from  "../../redux/Features/PlaceHolder/usersSlice";
+    import { cleanDataUser, getUserById } from  "../../redux/Features/PlaceHolder/usersSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import Loading from "../../components/Loading/Loading";
@@ -16,6 +16,10 @@ const UserDetail = () => {
     useEffect(() => {
         
         dispatch(getUserById(userId))
+
+        return () => {
+            dispatch(cleanDataUser())
+        }
     }, [userId])
     return (
 
