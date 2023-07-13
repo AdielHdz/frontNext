@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const PruebaMuro = () => {
   return (
-    <div className="text-white bg-black h-screen">
+    <div className="text-black h-screen bg-white">
       <h1 className="text-4xl font-medium p-3 text-center">Mauroo</h1>
       <div className="grid grid-cols-2 justify-center items-center">
         <h3 className="text-xl font-medium text-center">ABOUT ME</h3>
@@ -12,11 +12,10 @@ const PruebaMuro = () => {
           aliquid distinctio iste. Aut aperiam libero dolor repellendus quia.
         </p>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-4">
         <img
-          src="../../../public/asset/img.JPG"
+          src="../../../public/asset/istockphoto-1410982699-612x612.jpeg"
           alt="Descripción de la imagen"
-          className="rounded-full"
         />
       </div>
       <div className="flex justify-center">
