@@ -14,9 +14,9 @@ const UserDetail = () => {
     const user = useSelector(state => state.user.userData)
 
     useEffect(() => {
-        console.log(user)
+        
         dispatch(getUserById(userId))
-    }, [])
+    }, [userId])
     return (
 
         <div className="text-white flex justify-center items-center h-screen p-5 pt-0">

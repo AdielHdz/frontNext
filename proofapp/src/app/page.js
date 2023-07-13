@@ -24,7 +24,7 @@ export default function Home() {
         ? (<>
           {users.map((user) => {
             return (
-              <div className="flex items-center border border-green-800 p-3 mt-1 mb-1">
+              <div className="flex items-center border border-green-800 p-3 mt-1 mb-1" key={user.id}>
                 <img src={user.avatar} alt={user.name} className="md:w-32 md:h-32 rounded-full w-16 h-16 " />
                 <Link href={`/userDetail?userId=${user.id}`}  className="text-white cursor-pointer hover:text-blue-500 w-full text-center " ><h5>{user.first_name} {user.last_name}</h5></Link>
               </div>
