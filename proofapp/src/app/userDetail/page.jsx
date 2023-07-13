@@ -29,7 +29,12 @@ const UserDetail = () => {
                 user.id 
                 ? (
                     
-             <div className="border border-yellow-300   md:w-3/4  p-5 flex ">
+
+
+
+
+                    
+             <div className="border border-yellow-300   md:w-3/4  p-5 flex w-full ">
              <img src={user.avatar} alt={user.name}  className="w-24 md:w-40 rounded-full"/>
              <div className="pl-5 pr-5 w-full">
                    <h5 className=" w-full text-center pb-5">{user.first_name} {user.last_name}</h5>
