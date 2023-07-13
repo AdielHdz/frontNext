@@ -22,8 +22,10 @@ const userSlice = createSlice({
         usersCopy: [],
         userData: {}
     }, 
-    reducers: () => {
-
+    reducers: {
+        cleanDataUser: (state) => {
+            state.userData = {}
+        }
     },
     extraReducers: (builder) => {
         builder
@@ -36,5 +38,5 @@ const userSlice = createSlice({
     }
 })
 
-
+export const { cleanDataUser } = userSlice.actions
 export default userSlice.reducer
