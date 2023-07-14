@@ -44,7 +44,7 @@ export default function Home() {
           <div className="w-full flex items-center justify-center mt-3">
             <button
               className={`relative border-2 border-green-800 w-full md:w-3/5 rounded-full pt-2 hover:bg-green-800 shadow-shadowButtons hover:text-white transition duration-300 pb-2  text-green-800 `}>
-              <Link href="/pruebaValentina">ir a PruebaValentina</Link>
+              <Link href="/pruebaValentina">Posts</Link>
             </button>
           </div>
         </>
